@@ -84,7 +84,7 @@ function showOpeningHours(hourDetails) {
   }
   
   var openHoursHTML = '';
-  var hoursPeriods = hourDetails.periods;
+  var hourPeriods = hourDetails.periods;
   var openDaysCount = hourPeriods.length;
   var weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   
