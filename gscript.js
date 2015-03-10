@@ -61,7 +61,7 @@ function updateMap(locLatLng) {
 
 function addMarker(locLatLng) {
   var geocoder = new google.maps.Geocoder();
-  var gcReqParam = {
+  var gcReqParams = {
     location: locLatLng
   };
   // Retrieve place name from position coordinates and add marker there
